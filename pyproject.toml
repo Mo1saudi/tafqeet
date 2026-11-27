@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tafqeet"
+version = "0.1.0"
+description = "Write numbers and Egyptian pound amounts in Arabic words (tafqeet)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["arabic", "tafqeet", "number-to-words", "egp", "i18n"]
+
+[project.scripts]
+tafqeet = "tafqeet.__main__:main"
+
+[tool.setuptools]
+packages = ["tafqeet"]
