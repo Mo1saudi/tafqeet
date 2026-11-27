@@ -26,7 +26,7 @@ python -m tafqeet ١٢٣٤
 - Amounts are handled with `Decimal` and rounded half up to two decimals, so there are no float surprises.
 - Cheque style wrapper: `فقط ... لا غير`.
 - Arabic-Indic and western digit conversion.
-- Pure standard library, Python 3.8+.
+- Pure standard library, Python 3.10+.
 
 ## Scope and known simplifications
 
